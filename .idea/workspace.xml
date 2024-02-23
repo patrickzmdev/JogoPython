@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfad0289-6517-4dec-8b8a-f5d1fb797131" name="Changes" comment="teste2 git">
+    <list default="true" id="dfad0289-6517-4dec-8b8a-f5d1fb797131" name="Changes" comment="teste3 git">
+      <change afterPath="$PROJECT_DIR$/SpaceShooter/code/Const.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pythonGame1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonGame1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MountainShooter/code/Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/MountainShooter/code/Game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MountainShooter/code/Menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/MountainShooter/code/Menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diagramajogo.mdj" beforeDir="false" afterPath="$PROJECT_DIR$/diagramajogo.mdj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,9 +45,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.Game.executor": "Run",
+    "Python.Menu.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "aula__01",
     "last_opened_file_path": "C:/Users/patri/OneDrive/Área de Trabalho/uninter/Linguagem de Programação aplicada/aula pratica/pythonGame1/MountainShooter/code",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
@@ -97,7 +100,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708564902638</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="teste3 git">
+      <option name="closed" value="true" />
+      <created>1708644581414</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708644581414</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,6 +125,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="teste git" />
     <MESSAGE value="teste2 git" />
-    <option name="LAST_COMMIT_MESSAGE" value="teste2 git" />
+    <MESSAGE value="teste3 git" />
+    <option name="LAST_COMMIT_MESSAGE" value="teste3 git" />
   </component>
 </project>
