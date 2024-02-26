@@ -18,7 +18,8 @@ class Menu:
         pygame.mixer_music.play(-1)
         while True:
             self.window.blit(source=self.surf, dest=self.rect)
-            self.menu_text(80, "Space", (255, 255,255, 0), ((WIN_WIDTH / 2), 150))
+            self.menu_text(80, "Space", (78, 78, 78, 0), ((WIN_WIDTH / 2), 200))
+            self.menu_text(80, "Shooter", (78, 78, 78, 0), ((WIN_WIDTH / 2), 250))
             pygame.display.flip()
 
     def menu_text(self, text_size: int, text: str, text_color: tuple, text_center_pos: tuple):
