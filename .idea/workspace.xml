@@ -4,9 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfad0289-6517-4dec-8b8a-f5d1fb797131" name="Changes" comment="começando jogo">
+    <list default="true" id="dfad0289-6517-4dec-8b8a-f5d1fb797131" name="Changes" comment="Aula sobre criação do menu e movimento de entidades">
+      <change afterPath="$PROJECT_DIR$/SpaceShooter/asset/Enemy1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpaceShooter/asset/Enemy2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpaceShooter/asset/Level1.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpaceShooter/asset/Level1Bg0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpaceShooter/asset/Level1Bg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpaceShooter/asset/Level1Bg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpaceShooter/asset/Level1Bg3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpaceShooter/asset/Level1Bg4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpaceShooter/asset/Player1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpaceShooter/asset/Player2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooter/asset/MenuBG.png" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceShooter/asset/MenuBG.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooter/code/Background.py" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceShooter/code/Background.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooter/code/Const.py" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceShooter/code/Const.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooter/code/Enemy.py" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceShooter/code/Enemy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooter/code/Entity.py" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceShooter/code/Entity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooter/code/EntityFactory.py" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceShooter/code/EntityFactory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooter/code/Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceShooter/code/Game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooter/code/Level.py" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceShooter/code/Level.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpaceShooter/code/Menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceShooter/code/Menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooter/code/Player.py" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceShooter/code/Player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diagramajogo.mdj" beforeDir="false" afterPath="$PROJECT_DIR$/diagramajogo.mdj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +43,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="aula_01" />
+        <entry key="$PROJECT_DIR$" value="aula_02" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,19 +62,26 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.Background.executor": "Run",
+    "Python.Const.executor": "Run",
+    "Python.EntityFactory.executor": "Run",
     "Python.Game.executor": "Run",
+    "Python.Level.executor": "Run",
     "Python.Menu.executor": "Run",
+    "Python.Player.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "aula__02",
-    "last_opened_file_path": "C:/Users/patri/OneDrive/Área de Trabalho/uninter/Linguagem de Programação aplicada/aula pratica/pythonGame1/MountainShooter/code",
+    "git-widget-placeholder": "aula__03",
+    "last_opened_file_path": "C:/Users/patri/OneDrive/Área de Trabalho/uninter/Linguagem de Programação aplicada/aula pratica/pythonGame1/SpaceShooter/asset",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\patri\OneDrive\Área de Trabalho\uninter\Linguagem de Programação aplicada\aula pratica\pythonGame1\SpaceShooter\asset" />
       <recent name="C:\Users\patri\OneDrive\Área de Trabalho\uninter\Linguagem de Programação aplicada\aula pratica\pythonGame1\MountainShooter\code" />
     </key>
   </component>
@@ -114,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708648110139</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Aula sobre criação do menu e movimento de entidades">
+      <option name="closed" value="true" />
+      <created>1708990788366</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708990788366</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,10 +164,12 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="teste git" />
     <MESSAGE value="teste2 git" />
     <MESSAGE value="teste3 git" />
     <MESSAGE value="começando jogo" />
-    <option name="LAST_COMMIT_MESSAGE" value="começando jogo" />
+    <MESSAGE value="Aula sobre criação do menu e movimento de entidades" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aula sobre criação do menu e movimento de entidades" />
   </component>
 </project>
