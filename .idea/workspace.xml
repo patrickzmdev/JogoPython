@@ -5,26 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dfad0289-6517-4dec-8b8a-f5d1fb797131" name="Changes" comment="Aula sobre criação do menu e movimento de entidades">
-      <change afterPath="$PROJECT_DIR$/SpaceShooter/asset/Enemy1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceShooter/asset/Enemy2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceShooter/asset/Level1.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceShooter/asset/Level1Bg0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceShooter/asset/Level1Bg1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceShooter/asset/Level1Bg2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceShooter/asset/Level1Bg3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceShooter/asset/Level1Bg4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceShooter/asset/Player1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceShooter/asset/Player2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpaceShooter/asset/Enemy1Shot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpaceShooter/asset/Enemy2Shot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpaceShooter/asset/Player1Shot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpaceShooter/asset/Player2Shot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpaceShooter/code/EnemyShot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpaceShooter/code/EntityMediator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpaceShooter/code/PlayerShot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceShooter/asset/MenuBG.png" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceShooter/asset/MenuBG.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceShooter/code/Background.py" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceShooter/code/Background.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpaceShooter/code/Const.py" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceShooter/code/Const.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpaceShooter/code/Enemy.py" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceShooter/code/Enemy.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpaceShooter/code/Entity.py" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceShooter/code/Entity.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceShooter/code/EntityFactory.py" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceShooter/code/EntityFactory.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceShooter/code/Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceShooter/code/Game.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpaceShooter/code/Level.py" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceShooter/code/Level.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceShooter/code/Menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceShooter/code/Menu.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpaceShooter/code/Player.py" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceShooter/code/Player.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/diagramajogo.mdj" beforeDir="false" afterPath="$PROJECT_DIR$/diagramajogo.mdj" afterDir="false" />
     </list>
@@ -43,7 +35,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="aula_02" />
+        <entry key="$PROJECT_DIR$" value="aula_03" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -74,7 +66,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "aula__03",
+    "git-widget-placeholder": "aula__04",
     "last_opened_file_path": "C:/Users/patri/OneDrive/Área de Trabalho/uninter/Linguagem de Programação aplicada/aula pratica/pythonGame1/SpaceShooter/asset",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
@@ -149,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708990788366</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Aula sobre criação do menu e movimento de entidades">
+      <option name="closed" value="true" />
+      <created>1709257003442</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709257003442</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
