@@ -6,7 +6,7 @@ import pygame
 from pygame import Surface, Rect
 from pygame.font import Font
 
-from SpaceShooter.code.Const import WIN_WIDTH, MENU_OPTION, COLOR_WHITE, COLOR_RED
+from SpaceShooter.code.Const import WIN_WIDTH, MENU_OPTION, C_WHITE, C_RED
 
 
 class Menu:
@@ -22,14 +22,14 @@ class Menu:
         while True:
             # Desenhar na tela
             self.window.blit(source=self.surf, dest=self.rect)
-            self.menu_text(35, "Space", COLOR_RED, ((WIN_WIDTH / 2), 50))
-            self.menu_text(35, "Shooter", COLOR_RED, ((WIN_WIDTH / 2), 80))
+            self.menu_text(35, "Space", C_RED, ((WIN_WIDTH / 2), 50))
+            self.menu_text(35, "Shooter", C_RED, ((WIN_WIDTH / 2), 80))
 
             for i in range(len(MENU_OPTION)):
                 if i == menu_option:
-                    self.menu_text(25, MENU_OPTION[i], COLOR_RED, ((WIN_WIDTH / 2), 150 + 25 * i))
+                    self.menu_text(25, MENU_OPTION[i], C_RED, ((WIN_WIDTH / 2), 150 + 25 * i))
                 else:
-                    self.menu_text(25, MENU_OPTION[i], COLOR_WHITE, ((WIN_WIDTH / 2), 150 + 25 * i))
+                    self.menu_text(25, MENU_OPTION[i], C_WHITE, ((WIN_WIDTH / 2), 150 + 25 * i))
             pygame.display.flip()
 
             # verificar eventos
